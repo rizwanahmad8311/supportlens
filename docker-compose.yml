@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: supportlens_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    env_file:
+      - ./backend/.env
+    depends_on:
+      - frontend
+
+  frontend:
+    build: ./frontend
+    container_name: supportlens_frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app

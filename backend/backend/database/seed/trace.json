@@ -1,0 +1,134 @@
+[
+  {
+    "model": "traces.trace",
+    "pk": "00645602-3f76-44bf-b1bb-19304419b6e5",
+    "fields": {
+      "user_message": "What features are included in the Pro plan?",
+      "bot_response": "Our Pro plan is tailored for scaling businesses and includes the following features:\n\n*   **Advanced Reporting:** In-depth MRR, churn, and LTV analytics.\n*   **Custom Branding:** Remove our branding from invoices and checkout pages.\n*   **Dunning Management:** Automated workflows to recover failed payments.\n*   **Tax Automation:** Integrated global tax calculations and compliance.\n*   **API Access:** Full access to our developer tools and integrations.\n*   **Priority Support:** Faster response times from our support team.\n\nFor a full side-by-side comparison of all our tiers, please visit our pricing page. Let me know if you have any other questions!",
+      "category": "General Inquiry",
+      "timestamp": "2026-02-27T17:12:48.851Z",
+      "response_time_ms": 10527
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "4c5b9643-66fa-4c77-bb76-5f758026f7a8",
+    "fields": {
+      "user_message": "I want to cancel my account and also get a refund for this month.",
+      "bot_response": "I am sorry to hear youÆre looking to cancel. \n\nTo cancel your account, please log in and navigate to **Settings > Billing**, then select **Cancel Subscription**. Your access will continue until the end of your current billing cycle.\n\nRegarding your refund request, I have forwarded this to our billing department for review. Refund eligibility is determined by our Terms of Service. You can expect an update via email regarding your request within 2û3 business days.\n\nPlease let me know if there is anything else I can assist you with.",
+      "category": "Refund",
+      "timestamp": "2026-02-27T17:13:33.951Z",
+      "response_time_ms": 4126
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "6eb8cf06-4d3d-4fc6-b4b4-cebed388953a",
+    "fields": {
+      "user_message": "I was charged twice for my subscription this month. Can you explain why?",
+      "bot_response": "Hello,\n\nI apologize for the confusion regarding your recent charges. I would be happy to look into this for you.\n\nDuplicate charges typically occur due to one of the following:\n1. **A temporary authorization hold** from your bank (which usually disappears within a few days).\n2. **A recent plan upgrade** or mid-cycle change.\n3. **Multiple active subscriptions** under different email addresses.\n\nTo investigate, please provide your account email and the transaction IDs found on your receipts. Once I have those details, I can determine the cause and initiate a correction if necessary.\n\nThank you for your patience.",
+      "category": "Billing",
+      "timestamp": "2026-02-27T17:11:18.862Z",
+      "response_time_ms": 4481
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "8f01b0e4-9817-48a8-9518-f32d8d0854d9",
+    "fields": {
+      "user_message": "I see an unexpected $49 charge on my account.",
+      "bot_response": "Hello, IÆm sorry to hear about the unexpected charge. I would be happy to help you investigate this immediately.\n\nTo assist you further, please provide the email address associated with your account or the transaction ID found on your bank statement. Typically, a $49 charge corresponds to a subscription renewal or a recent plan change, but I can confirm the exact details once I access your records.\n\nOnce you provide that information, I will review your billing history and walk you through the next steps to resolve this. Thank you for your patience.",
+      "category": "Billing",
+      "timestamp": "2026-02-27T17:19:26.978Z",
+      "response_time_ms": 4785
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "960cca4e-b408-4d95-a89d-a17180759571",
+    "fields": {
+      "user_message": "I want to cancel my subscription effective immediately.",
+      "bot_response": "Hello, I can certainly help you with that.\n\nTo cancel your subscription, please log in to your account and navigate to **Settings > Billing**. From there, select **Cancel Subscription** and follow the prompts to confirm.\n\nOnce processed, your subscription will be set to end. Typically, you will retain access to your features until the end of your current billing period. If you require an immediate termination of access or have specific questions regarding a refund, please let me know so I can assist you further.\n\nThank you for using our platform, and weÆre sorry to see you go. Is there anything else I can help you with today?",
+      "category": "Cancellation",
+      "timestamp": "2026-02-27T17:12:32.498Z",
+      "response_time_ms": 11701
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "a2119747-101f-4a56-8f7a-dd7456175a77",
+    "fields": {
+      "user_message": "Please close my account permanently.",
+      "bot_response": "I am sorry to hear you would like to close your account.\n\nTo proceed with a permanent closure, please confirm that you have backed up any necessary data. Once an account is closed, all information is permanently deleted and cannot be recovered. \n\nYou can typically initiate this process directly through your account settings under the \"Billing\" or \"Subscription\" section. Alternatively, if you would like me to process this request for you, please reply to this message with your confirmation.\n\nPlease note that any outstanding balances must be settled before the account can be finalized. Let me know how you would like to proceed.",
+      "category": "Cancellation",
+      "timestamp": "2026-02-27T17:20:30.048Z",
+      "response_time_ms": 4799
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "aa09f9a5-28ca-4638-a80b-6d503185c46e",
+    "fields": {
+      "user_message": "IÆm not satisfied with the product. How do I request a refund?",
+      "bot_response": "IÆm sorry to hear that you are not satisfied with the product. To request a refund, please submit a formal request through our Support Portal or reply directly to your most recent invoice email.\n\nOur billing team will review your account details and eligibility based on our Terms of Service. Please include your account email and the specific reason for your request to help us process it as quickly as possible.\n\nOnce submitted, a representative will reach out to you within 2-3 business days. We appreciate your feedback.",
+      "category": "Refund",
+      "timestamp": "2026-02-27T17:19:54.341Z",
+      "response_time_ms": 4433
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "c5dfec26-7b9a-40f3-8242-bfdefd0e5d6b",
+    "fields": {
+      "user_message": "My credit card was declined even though itÆs valid. WhatÆs going on?",
+      "bot_response": "Hello! IÆm sorry for the frustration caused by this payment decline.\n\nEven with a valid card, transactions can be blocked for several reasons:\n*   **Bank Security:** Your bank may flag the charge for verification.\n*   **Incorrect Information:** Please double-check your CVV, expiration date, and billing zip code in your billing settings.\n*   **Transaction Limits:** Some banks have daily limits or block cross-border SaaS transactions.\n\nWe recommend contacting your bank first, as they have access to the specific reason for the block. If they confirm the issue is not on their end, please let us know and we will investigate further.",
+      "category": "Billing",
+      "timestamp": "2026-02-27T17:19:11.002Z",
+      "response_time_ms": 12765
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "cd1534ec-052c-4dfb-a8e5-d8aa1f862ee6",
+    "fields": {
+      "user_message": "IÆd like a refund for the last charge. I didnÆt use the service.",
+      "bot_response": "Hello! IÆd be happy to help you with your refund request.\n\nTo get started, could you please provide the email address associated with your account or your latest invoice number? \n\nOnce I have those details, I will review your account's usage history and our standard refund policy to determine your eligibility. IÆll process the request and get back to you with an update as quickly as possible.\n\nThank you for your patience.",
+      "category": "Refund",
+      "timestamp": "2026-02-27T17:11:38.680Z",
+      "response_time_ms": 5299
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "d47dff2c-6897-4455-ac21-ce2aa0d4d3db",
+    "fields": {
+      "user_message": "I forgot which email I used to sign up.",
+      "bot_response": "Hello! I can certainly help you locate your account details.\n\nTo identify your login email, please try the following:\n1. **Search your inboxes:** Check your various email accounts for a welcome message or billing receipt from us.\n2. **Check saved passwords:** Your browser or password manager may have the credentials stored.\n\nIf you are still unable to find it, please reply with the **last four digits of the credit card** on file and the **date of your most recent transaction**. We can use this information to securely locate your account in our system.\n\nFor security reasons, we can only disclose account information once your identity is verified. Let me know how you'd like to proceed!",
+      "category": "Account Access",
+      "timestamp": "2026-02-27T17:20:04.138Z",
+      "response_time_ms": 4281
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "dc3ea693-2985-4019-8b34-64938d7114de",
+    "fields": {
+      "user_message": "How do I update my authentication settings?",
+      "bot_response": "To update your authentication settings, please follow these steps:\n\n1. Log in to your account dashboard.\n2. Click on your profile icon in the top-right corner and select **Settings**.\n3. Navigate to the **Security** or **Authentication** tab.\n4. From here, you can update your password, enable Multi-Factor Authentication (MFA), or manage Single Sign-On (SSO) preferences.\n\nIf you are an administrator looking to update requirements for your entire team, please visit the **Organization Settings** section. \n\nPlease let us know if you need further assistance!",
+      "category": "Account Access",
+      "timestamp": "2026-02-27T17:20:21.497Z",
+      "response_time_ms": 4813
+    }
+  },
+  {
+    "model": "traces.trace",
+    "pk": "fd59a311-1540-49be-ada5-e0edea294898",
+    "fields": {
+      "user_message": "I canÆt log into my account. It says password incorrect.",
+      "bot_response": "Hello! IÆm sorry to hear youÆre having trouble accessing your account.\n\nTo resolve this, please use the **\"Forgot Password\"** link on our login page. Enter your registered email address, and we will send you instructions to reset your credentials immediately.\n\nIf you do not receive the email within a few minutes, please check your spam or junk folder. \n\nShould you continue to experience issues after resetting your password, please let me know, and I will be happy to investigate further.",
+      "category": "Account Access",
+      "timestamp": "2026-02-27T17:11:59.840Z",
+      "response_time_ms": 3722
+    }
+  }
+]

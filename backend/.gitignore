@@ -1,0 +1,14 @@
+# Virtual Environment
+venv/
+venv*
+.env
+
+# IDE ingnores
+.idea/
+.idea*
+__pycache__/
+.vscode/
+.vscode*
+
+# Test Coverage
+.coverage
